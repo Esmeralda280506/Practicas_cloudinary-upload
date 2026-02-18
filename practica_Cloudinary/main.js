@@ -56,7 +56,7 @@ const subirImagen = () => {
         return response.json()
     })
     .then(data => {
-        alert("¡Subida exitosa!")
+        alert("¡Imagen subida exitosamente!")
         
         // Crear tarjeta para la galería dinámica
         const nuevaTarjeta = `
